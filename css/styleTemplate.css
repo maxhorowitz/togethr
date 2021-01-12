@@ -1,0 +1,128 @@
+#content {
+    position: absolute;
+    width: 100vw;
+    height: max(100vw, 100vh);
+    margin: auto;
+    left: 0px;
+    top: 0px;
+    background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url(../images/Bazaar-Collage-2-scaled.jpg);
+    background-size: 100vw;
+    display: block;
+}
+
+#logo {
+    
+    display: block;
+    position: relative;
+    left: 0;
+    top: 0;
+    
+}
+
+#logo img {
+    
+    padding: min(2.5vh, 2.5vw);
+    height: min(100px, max(10vw, 10vh));
+}
+
+#landingPageTitle {
+    
+    display: block;
+    
+}
+
+.landingPageTitle-font {
+    
+    font-family: sans-serif;
+    color: white;
+    text-align: center;
+    
+}
+
+#name {
+    
+    padding: 5vh 5vw;
+    font-size: 10vw;
+    font-weight: 900;
+    
+}
+
+#motto {
+    
+    padding: 2.5vh 2.5vw;
+    font-size: 2.5vw;
+    font-weight: 100;
+    
+}
+
+#landingPageOptions {
+    
+    display:block;
+    padding-top: 20vh;
+    
+}
+
+.grid-container-landingPageOptions {
+    margin-left: auto;
+    margin-right: auto;
+    display: grid;
+    padding-left: 15vw;
+    padding-right: 15vw;
+    padding-top: 2.5vw;
+    padding-bottom: 2.5vw;
+}
+
+.gridItemAboutUs {
+    grid-column-start: 1;
+    grid-column-end: 2;
+    margin: auto;
+}
+
+.gridItemOurTeam {
+    grid-column-start: 2;
+    grid-column-end: 3;
+    margin: auto;
+}
+
+.gridItemRegister {
+    grid-column-start: 3;
+    grid-column-end: 4;
+    margin: auto;
+}
+
+.gridItemContactUs {
+    grid-column-start: 4;
+    grid-column-end: 5;
+    margin: auto;
+}
+
+.landingPageButton {
+    
+    text-decoration: none;
+    border-style: solid;
+    border-color: white;
+    border-width: .25vw;
+    font-family: sans-serif;
+    font-size: 1.75vw;
+    color: white;
+    line-height: 2;
+    font-weight: 3;
+    
+}
+
+.landingPageButton:hover {
+    
+    animation: colorize 0.5s cubic-bezier(0, 0, .78, .36) 1;
+    background-color: purple;
+}
+
+@keyframes colorize {
+    0% {
+        -webkit-background-color: rgba(0, 0, 0, 0);
+        background-color: rgba(0, 0, 0, 0);
+    100% {
+        -webkit-background-color: rgba(0, 0, 0, 1);
+        background-color: rgba(0, 0, 0, 1);
+    }
+}
+

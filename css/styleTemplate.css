@@ -6,7 +6,8 @@
     left: 0px;
     top: 0px;
     display: block;
-    
+    font-family: 'Montserrat', sans-serif;
+    color: white;
 }
 
 .parallax {
@@ -39,15 +40,54 @@
     height: min(100px, max(10vw, 10vh));
 }
 
-#landingPageTitle {
+.coresection {
     
     display: block;
+    text-align: center;
     
+}
+
+.grid-container-divider {
+    margin-left: auto;
+    margin-right: auto;
+    display: grid;
+    padding-left: 42.5vw;
+    padding-right: 42.5vw;
+    padding-top: 2.5vw;
+    padding-bottom: 2.5vw;
+}
+
+.gridItemLeftTriangle {
+    grid-column-start: 1;
+    grid-column-end: 2;
+    margin: auto;
+}
+
+.gridItemMiddleTriangle {
+    grid-column-start: 2;
+    grid-column-end: 3;
+    margin: auto;
+}
+
+.gridItemRightTriangle {
+    grid-column-start: 3;
+    grid-column-end: 4;
+    margin: auto;
+}
+
+.triangle-down {
+    align-content: center;
+    display: inline-block;
+    width: 0;
+    height: 0;
+    border-left: min(1.5vw, 1.5vh) solid transparent;
+    border-right: min(1.5vw, 1.5vh) solid transparent;
+    border-top: min(3vw, 3vh) solid white;
 }
 
 .landingPageTitle-font {
     
-    font-family: sans-serif;
+    font-family: 'Montserrat', sans-serif;
     color: white;
     text-align: center;
     
@@ -58,6 +98,14 @@
     padding: 5vh 5vw;
     font-size: 10vw;
     font-weight: 900;
+    
+}
+
+#subheader {
+    
+    padding: 5vh 5vw;
+    font-size: 7vw;
+    font-weight: 700;
     
 }
 
@@ -74,6 +122,10 @@
     font-size: 2.5vw;
     font-weight: 250;
     
+}
+
+.coresection {
+    min-height: 100vh;
 }
 
 .link {
@@ -97,8 +149,9 @@
 
 #landingPageOptions {
     
-    display:block;
-    position:relative;
+    position: relative;
+    top: 25vh;
+    
 }
 
 .grid-container-landingPageOptions {
@@ -141,7 +194,8 @@
     border-style: solid;
     border-color: white;
     border-width: .25vw;
-    font-family: sans-serif;
+    font-family: inherit;
+    color: white;
     font-size: 1.75vw;
     color: white;
     line-height: 2;

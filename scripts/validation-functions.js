@@ -75,7 +75,7 @@ $(document).ready(function() {
 
         // Use Ajax to submit form data
         var url = 'https://script.google.com/macros/s/AKfycbxK6kPr-wtVA2AG0MNQrLlz96ahhGhmjg2kvj5YTX5DIpX3DqKy6F32dQ/exec';
-        var redirectUrl = '../togethr.v3/html/success-page.html';
+        var redirectUrl = '../togethr/html/success-page.html';
         // show the loading 
         $('#postForm').prepend($('<span></span>').addClass('glyphicon glyphicon-refresh glyphicon-refresh-animate'));
         var jqxhr = $.post(url, $form.serialize(), function(data) {

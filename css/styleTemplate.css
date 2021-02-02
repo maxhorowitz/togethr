@@ -188,6 +188,11 @@
     grid-column-end: 3;
 }
 
+.sub-sub-header {
+    padding: 5vh 5vw;
+    font-size: 3.5vw;
+    font-weight: 450;
+}
 
 .grid-container-advisory-board {
     margin-left: auto;

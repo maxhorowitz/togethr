@@ -40,6 +40,10 @@
     height: min(100px, max(10vw, 10vh));
 }
 
+.container {
+    color: black;
+}
+
 .coresection {
     
     display: block;
@@ -48,10 +52,24 @@
     
 }
 
+#about-us-section {
+    background-color: rgba(255, 255, 255 , 0.75);
+    color: rgba(0, 0, 0 , 0.75);
+    border-color: rgba(0, 0, 0 , 0.75);
+}
+
+.darken-hr {
+    border-color: rgba(0, 0, 0 , 0.75);
+}
+
+#register-section {
+    background-color: rgba(0, 0, 0 , 0.5);
+    color: rgba(255, 255, 255 , 1);
+}
+
 .container-form {
-    background-color: rgba(0, 0, 0, 0.0);
-    color: white;
     text-align: left;
+    color: white;
 }
 
 .grid-container-divider {
@@ -131,22 +149,79 @@
     
 }
 
-.link {
-    color:white;
+.bio-content {
+    padding: 0vh 2.5vw 0vh 2.5vw;
+    font-size: 1.5vw;
 }
 
-.bio {
-    margin-top: 5vh;
-    margin-bottom: 5vh;
-}
-
-.bioImage {
-    display: block;
-    position: relative;
-    padding-left: 35vw;
-    padding-right: 35vw;
-    width: 30vw;
+.bio-image {
     border-radius: 50%;
+    padding-top: 2.5vh;
+    padding-bottom: 2.5vh;
+}
+
+.bio-image-team {
+    width: 25vw;
+}
+
+.bio-image-advisor {
+    width: 15vw;
+}
+
+.grid-container-our-team {
+    margin-left: auto;
+    margin-right: auto;
+    display: grid;
+    padding-left: 2.5vwvw;
+    padding-right: 2.5vw;
+    padding-top: 2.5vw;
+    padding-bottom: 2.5vw;
+}
+
+.grid-item-calvin-hulse {
+    grid-column-start: 1;
+    grid-column-end: 2;
+}
+
+.grid-item-lucas-kirshenbaum {
+    grid-column-start: 2;
+    grid-column-end: 3;
+}
+
+
+.grid-container-advisory-board {
+    margin-left: auto;
+    margin-right: auto;
+    display: grid;
+    padding-left: 5vwvw;
+    padding-right: 5vw;
+    padding-top: 2.5vw;
+    padding-bottom: 2.5vw;
+}
+
+.grid-item-adv1 {
+    grid-column-start: 0;
+    grid-column-end: 1;
+}
+
+.grid-item-adv2 {
+    grid-column-start: 1;
+    grid-column-end: 2;
+}
+
+.grid-item-adv3 {
+    grid-column-start: 2;
+    grid-column-end: 3;
+}
+
+.grid-item-adv4 {
+    grid-column-start: 3;
+    grid-column-end: 4;
+}
+
+.grid-child {
+    margin-right: auto;
+    margin-left: auto;
 }
 
 
@@ -173,13 +248,13 @@
     margin: auto;
 }
 
-.gridItemOurTeam {
+.gridItemRegister {
     grid-column-start: 2;
     grid-column-end: 3;
     margin: auto;
 }
 
-.gridItemRegister {
+.gridItemOurTeam {
     grid-column-start: 3;
     grid-column-end: 4;
     margin: auto;

@@ -7,8 +7,6 @@
         <link href="css/styleTemplate.css" rel="stylesheet" type="text/css">
         <link rel="preconnect" href="https://fonts.gstatic.com"> 
         <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        
         
         
         <!-- bootstrap & fontawesome css -->
@@ -70,13 +68,13 @@
                         <a id="about-us-button" class="landingPageButton gridItemAboutUs" href="#about-us-section">
                             ABOUT US
                         </a>
-
-                        <a id="our-team-button" class="landingPageButton gridItemOurTeam" href="#our-team-section">
-                            OUR TEAM
-                        </a>
-
+                        
                         <a id="register-button" class="landingPageButton gridItemRegister" href="#register-section">
                             REGISTER
+                        </a>
+                        
+                        <a id="our-team-button" class="landingPageButton gridItemOurTeam" href="#our-team-section">
+                            OUR TEAM
                         </a>
 
                         <a id="contact-us-button" class="landingPageButton gridItemContactUs" href="#contact-us-section">
@@ -91,8 +89,7 @@
             
             <div id="about-us-section" class="coresection" >
                 
-                <div class="container"><hr></div>
-                
+                <div class="container"><hr class="darken-hr"></div>
 
                 <div id="subheader">
                     ABOUT US
@@ -117,7 +114,7 @@
                     <p class="informationContent">Sign up to be notified when we launch in your state!</p>
                     <p class="informationContent">Want to get ahead of the game? Share <a class="link" href="https://togethr.info/">this link</a> with your friends to start saving immediately on launch.</p>
                 </div>
-                
+
                 <div class="container container-form">
                     <form class="form-horizontal" role="form" id="test-form">
 
@@ -175,7 +172,7 @@
                     </form>
 
                 </div>
-
+                
             </div>
             
             <div id="our-team-section" class="coresection" >
@@ -186,24 +183,54 @@
                     OUR TEAM
                 </div>
 
-                <div id="info">
+                <div id="info" class="grid-container-our-team">
 
-                    <div class="bio" id="calvinhulse;cofounder">
+                    <div class="grid-item-calvin-hulse grid-child" id="calvinhulse">
+                        
+                        <img src="images/calvinhulsebio.jpg"
+                             class="bio-image bio-image-team">
 
-                        <img class="bioImage" src="images/calvinhulsebio.jpg">
-
-                        <p class="informationContent">Calvin Hulse is a senior at Cornell University studying Entrepreneurial Strategy and Creative Innovation. He is the founder of The Ivy League Meme Consortium, a social community of over 100,000 members who share and engage with content pertaining to classes, politics, school policy, and many other relevant topics. He has previously interned with McDonald’s, ALICE, NSG/SWAT, and is the former Creative Director of Authentic Social, all of which have given him valuable insight into growth strategy and relevant industry dynamics. Calvin has a passion for creating novel products and business models which challenge convention, and is extremely excited to apply his strategic vision to TOGETHR. Originally from Onalaska, WI, Calvin plans to reside in Manhattan, NY upon graduation.</p>
-
-                    </div>
-
-                    <div class="bio" id="lucaskirshenbaum;cofounder">
-
-                        <img class="bioImage" src="images/lucaskirshenbaumbio.jpeg">
-
-                        <p class="informationContent">Lucas Kirshenbaum is a Junior at Cornell University studying Entrepreneurial Strategy and Business Management with a minor in Plant Science. He is extraordinarily well versed in agricultural economics and field crop production having graduated from The Mountain School of Milton Academy, and has completed work on multiple farms throughout New York State and on the island of Jamaica. Lucas has tied his passion for agriculture with business by interning for JANA Partners, SWAT Equity Partners, and OFS Management. Lucas is fascinated by the agricultural supply chain and operations in organizations. He looks forward to applying his expertise to a wide range of distribution channels and products. Lucas currently resides in Manhattan, New York with his twin sister and beloved dog, Montague.  </p>
+                        <p class="bio-content">Calvin Hulse is a senior at Cornell University studying Entrepreneurial Strategy and Creative Innovation. He is the founder of The Ivy League Meme Consortium, a social community of over 100,000 members who share and engage with content pertaining to classes, politics, school policy, and many other relevant topics. He has previously interned with McDonald’s, ALICE, NSG/SWAT, and is the former Creative Director of Authentic Social, all of which have given him valuable insight into growth strategy and relevant industry dynamics. Calvin has a passion for creating novel products and business models which challenge convention, and is extremely excited to apply his strategic vision to TOGETHR. Originally from Onalaska, WI, Calvin plans to reside in Manhattan, NY upon graduation.</p>
 
                     </div>
 
+                    <div class="grid-item-lucas-kirshenbaum grid-child" id="lucaskirshenbaum">
+
+                        <img src="images/lucaskirshenbaumbio.jpeg" class="bio-image bio-image-team">
+
+                        <p class="bio-content">Lucas Kirshenbaum is a Junior at Cornell University studying Entrepreneurial Strategy and Business Management with a minor in Plant Science. He is extraordinarily well versed in agricultural economics and field crop production having graduated from The Mountain School of Milton Academy, and has completed work on multiple farms throughout New York State and on the island of Jamaica. Lucas has tied his passion for agriculture with business by interning for JANA Partners, SWAT Equity Partners, and OFS Management. Lucas is fascinated by the agricultural supply chain and operations in organizations. He looks forward to applying his expertise to a wide range of distribution channels and products. Lucas currently resides in Manhattan, New York with his twin sister and beloved dog, Montague.  </p>
+
+                    </div>
+                    
+                </div>
+                
+                <div id="info" class="grid-container-advisory-board">
+                    
+                    <div class="grid-item-adv1 grid-child" id="adv1">
+                        
+                        <img src="images/silhouette-woman.png" class="bio-image bio-image-advisor">
+
+                        <p class="bio-content">Mentor One</p>
+                    </div>
+                    
+                    <div class="grid-item-adv2 grid-child" id="adv2">
+                        <img src="images/silhouette-woman.png" class="bio-image bio-image-advisor">
+
+                        <p class="bio-content">Mentor Two</p>
+                    </div>
+                    
+                    <div class="grid-item-adv3 grid-child" id="adv3">
+                        <img src="images/silhouette-man.jpg" class="bio-image bio-image-advisor">
+
+                        <p class="bio-content">Mentor Three</p>
+                    </div>
+                    
+                    <div class="grid-item-adv4 grid-child" id="adv4">
+                        <img src="images/silhouette-man.jpg" class="bio-image bio-image-advisor">
+
+                        <p class="bio-content">Mentor Four</p>
+                    </div>
+                
                 </div>
 
 
